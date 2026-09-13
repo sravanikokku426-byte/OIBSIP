@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logoimage {
+    height: 60px;
+    width: 80px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 17px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.menu-item-link {
+    color: white;
+    padding: 10px;
+
+}
+
+.secondpartoflandpage {
+    background-color: #131e40;
+    width: 100%;
+    min-height: 430px;
+    padding: 65px 7%;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #273359;
+    color: green;
+    border-radius: 20px;
+    font-weight: bold;
+    border-style: none;
+    border-color: #273359;
+    padding: 8px 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.Heading {
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 5px 0;
+}
+
+.futurebuildingheading {
+    color: #0dde45;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 5px 0 15px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 17px;
+    line-height: 1.7;
+    
+    margin-bottom: 25px;
+}
+
+.Homedetailspage {
+    width: 50%;
+    padding: 10px 20px 10px 0;
+}
+
+.buttonpart {
+    border-radius: 20px;
+    background-color: #c9f0f2;
+    border-style: none;
+    padding-left: 5px;
+}
+
+.Homepageimage {
+    width: 80%;
+    max-width: 550px;
+    height: 100%;
+}
+
+.para {
+    text-align: center;
+    color: #3dcf11;
+    font-size: 33px;
+}
+
+.headpart {
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.personsname{
+    font-size: 20px;
+}
+
+.Featurespart {
+    margin: 20px;
+}
+
+.thirdpartlandingpage {
+    background-color: #e1f7f6;
+    margin: 10px;
+    padding: 40px 20px;
+}
+
+.Aboutpart {
+    width: 50%;
+    padding-left: 15px;
+
+}
+
+.paraofaboutpart {
+    color: #3dcf11;
+    font-size: 33px;
+}
+
+.headofaboutpart {
+    font-weight: bold;
+
+}
+
+.personsimage {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+.quote {
+    color: #20cdb5;
+
+    font-size: 35px;
+    font-weight: 700;
+}
+.personscard{
+    width: 35%;
+}
+
+.contactpart {
+    background-color: #131e40;
+    width: 100%;
+    padding: 30px 20px;
+
+}
+
+.feature-icon {
+    min-width: 70px;
+    height: 50px;
+
+    background: #edf8f7;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+}
+
+
+.fontawesomeicons {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #d2fafa;
+    text-align: center;
+    margin: 10px;
+}
+.contactdetailspart {
+    color: white;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+    .Homedetailspage {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .Homepageimage {
+        width: 100%;
+        height: auto;
+    }
+
+    .Aboutpart {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .para {
+        font-size: 28px;
+    }
+
+    .headpart {
+        font-size: 28px;
+    }
+
+    .contactpart {
+        flex-direction: column !important;
+    }
+}
