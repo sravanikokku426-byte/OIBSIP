@@ -1,0 +1,182 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.converter-container {
+    width: 100%;
+    max-width: 500px;
+
+    background-color: #ffffff;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    color: #6b7280;
+
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #374151;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+
+    border-color: #2563eb;
+}
+
+button {
+    width: 100%;
+
+    padding: 13px;
+
+    background-color: #2563eb;
+
+    color: #ffffff;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#errorMessage {
+    min-height: 22px;
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    color: #dc2626;
+
+    font-size: 14px;
+}
+
+.result-section {
+    margin-top: 25px;
+}
+
+.result-section h2 {
+    text-align: center;
+
+    color: #1f2937;
+
+    margin-bottom: 15px;
+}
+
+.result-box {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px;
+
+    margin-bottom: 10px;
+
+    background-color: #f8fafc;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 8px;
+}
+
+.result-box span:first-child {
+    color: #475569;
+
+    font-weight: bold;
+}
+
+.result-box span:last-child {
+    color: #2563eb;
+
+    font-size: 17px;
+
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+
+    .converter-container {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .result-box {
+        flex-direction: column;
+
+        gap: 8px;
+    }
+}
+
+
